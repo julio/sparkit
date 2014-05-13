@@ -1,4 +1,10 @@
 sparkit
 =======
 
-cat phoenix.txt | ruby lib/spark.rb
+# Usage
+
+$ ruby lib/spark.rb phoenix.txt
+
+# Ticks
+
+▁ ▂ ▃ ▄ ▅ ▆ ▇ █
