@@ -51,7 +51,7 @@ module Spark
     end
 
     def number_to_bar_index(n)
-      ((n - min)*(TICKS.size - 1)) / range
+      ((n - min) * (TICKS.size - 1)) / range
     end
   end
 end
