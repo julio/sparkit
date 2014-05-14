@@ -55,17 +55,3 @@ module Spark
     end
   end
 end
-
-# ---- test from the command line ----
-
-def running_script?
-  $0 == __FILE__
-end
-
-if running_script?
-  if File.exist?(ARGV[0])
-    puts Spark::Grapher.render(ARGF.read)
-  else
-    puts Spark::Grapher.render(ARGV[0])
-  end
-end

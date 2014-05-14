@@ -3,7 +3,7 @@ sparkit
 
 # Usage
 
-$ ruby lib/spark.rb phoenix.txt
+$ bin/sparkit phoenix.txt
 
 # Tests
 
