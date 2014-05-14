@@ -1,7 +1,5 @@
 module Spark
   class Grapher
-    attr_reader :numbers
-
     TICKS = %w{ ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ }.freeze
 
     def self.render(numbers)
@@ -16,6 +14,8 @@ module Spark
     end
 
     private
+
+    attr_reader :numbers
 
     def normalize_numbers
       remove_commas
